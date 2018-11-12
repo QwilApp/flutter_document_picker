@@ -1,0 +1,19 @@
+name: flutter_document_picker
+description: A Flutter wrapper for Apple's UIDocumentMenuViewController and for Android's Intent.ACTION_OPEN_DOCUMENT / Intent.ACTION_PICK.
+version: 0.0.1
+author:
+homepage:
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mime: any
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: io.qwil.flutterdocumentpicker
+    pluginClass: FlutterDocumentPickerPlugin
