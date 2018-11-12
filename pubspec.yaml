@@ -17,3 +17,6 @@ flutter:
   plugin:
     androidPackage: io.qwil.flutterdocumentpicker
     pluginClass: FlutterDocumentPickerPlugin
+
+environment:
+  sdk: "<3.0.0"
